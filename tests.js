@@ -113,6 +113,12 @@ it("Chris' name should be Chris", function() {
 
 });
 
+it("Peterson's speed and distance", function() {
+
+  expect(Peterson.speed).tobe(90);
+  expect(Peterson.distance).tobe(10);
+});
+
 
 it("RedBull's effect should be full of toxins", function() {
 
